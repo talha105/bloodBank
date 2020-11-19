@@ -5,6 +5,18 @@ import { ImageBackground,Image } from "react-native";
 import backgroundimage from "../../assets/background.png";
 import LoginInput from "./loginInput"
 
+function validate(value){
+  const error={email:'',password:''};
+  if(!value.email){
+    error.email="required email"
+  
+  }
+  if(!value.password){
+    error.password="required password"
+  
+  }
+  return error
+  }
 class Login extends Component{
 
   render(){
@@ -17,6 +29,7 @@ class Login extends Component{
               <Field iconName="ios-mail" name="email" secureTextEntry={false} placeholder="Enter Email" component={LoginInput}/>
               <Field name="password" iconName="key" secureTextEntry={true} placeholder="Enter Password" component={LoginInput}/>
             <Button block style={style.button} onPress={this.props.handleSubmit(value=>console.log(value))}><Text>Login</Text></Button>
+            <Text>Create Account</Text>
           </Body>
         </Content>
       </ImageBackground>
@@ -24,13 +37,7 @@ class Login extends Component{
   );
 }
 }
-function validate(value){
-const error={};
-if(value.email<3){
-  error.email="max character 4"
 
-}
-}
 
 export default reduxForm({
   validate,
