@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "285083987468",
+    "firebase_url": "https://tracker-3b91c.firebaseio.com",
+    "project_id": "tracker-3b91c",
+    "storage_bucket": "tracker-3b91c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285083987468:android:a48504c04c371fa9a4c829",
+        "android_client_info": {
+          "package_name": "com.talha.bloodApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "285083987468-hgng3t7r9s7nrs5mldbr2lcun1jti8hr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCd6MYUuY1rvOSolyjgUA8D0nyl72gWjsE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "285083987468-hgng3t7r9s7nrs5mldbr2lcun1jti8hr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

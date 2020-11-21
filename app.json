@@ -17,9 +17,13 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.talha.bloodApp",
+      "googleServicesFile": "./GoogleService-Info.plist",
       "supportsTablet": true
     },
     "android": {
+      "package": "com.talha.bloodApp",
+      "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"

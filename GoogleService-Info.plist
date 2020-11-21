@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>285083987468-kovtkj0l5obu0hce3botq4oq7k42fhu5.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.285083987468-kovtkj0l5obu0hce3botq4oq7k42fhu5</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBfBiXU3aJsvh9r-80h5SThr1IHRm1jp10</string>
+	<key>GCM_SENDER_ID</key>
+	<string>285083987468</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.talha.bloodApp</string>
+	<key>PROJECT_ID</key>
+	<string>tracker-3b91c</string>
+	<key>STORAGE_BUCKET</key>
+	<string>tracker-3b91c.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:285083987468:ios:59ac594976cd5cbea4c829</string>
+	<key>DATABASE_URL</key>
+	<string>https://tracker-3b91c.firebaseio.com</string>
+</dict>
+</plist>
